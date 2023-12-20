@@ -1,6 +1,6 @@
 <template>
   <main class="prose">
-    <ContentDoc>
+    <ContentDoc class="p-8">
       <template #not-found>
         <Error />
       </template>
@@ -9,5 +9,7 @@
 </template>
 
 <script setup>
-
+definePageMeta({
+  layout: 'blog'
+})
 </script>

@@ -33,7 +33,6 @@ You can use blockquotes
 
 > This is a blockquote
 
-You can use links
 
 [This is a link](https://www.google.com)
 

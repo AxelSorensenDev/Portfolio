@@ -1,12 +1,21 @@
 <template>
-  <nav class="flex text-gray-800 text-sm justify-between">
-    <div class="*:p-2 *:px-4 gap-2 *:rounded-md m-4 hidden sm:flex">
-      <div class="text-slate-500 mr-2">@Axel Sorensen</div>
-      <NuxtLink v-for="page in pages" class="hover:bg-gray-100 hover:text-gray-900" :to="page.href">{{ page.name }}
-      </NuxtLink>
+  <nav class="flex text-gray-800 text-sm justify-between whitespace-nowrap">
+    <div class="flex">
+      <div class="text-slate-500 px-4 p-2 m-4">@Axel Sorensen</div>
+
+      <div class="*:p-2 *:px-4 gap-2 *:rounded-md m-4 hidden md:flex">
+        <NuxtLink v-for="page in pages" class="hover:bg-gray-100 hover:text-gray-900" :to="page.href">{{ page.name }}
+        </NuxtLink>
+      </div>
     </div>
-    <div class="*:p-2 *:px-4 *:rounded-md flex m-4">
-      <NuxtLink class="hover:bg-gray-100 hover:text-gray-900" to="/contact">Contact</NuxtLink>
+    <div class="flex gap-2 mx-8 m-4">
+      <a href="https://github.com/AxelSorensenDev" target="_blank">
+        <Icon name="uil:github" class="text-3xl cursor-pointer hover:text-gray-900 text-gray-500" />
+      </a>
+
+      <a href="https://www.linkedin.com/in/axel-sorensen/" target="_blank">
+        <Icon name="uil:linkedin" class="text-3xl cursor-pointer hover:text-gray-900 text-gray-500" />
+      </a>
     </div>
   </nav>
 </template>
@@ -17,7 +26,7 @@ const pages = [
   { name: 'Blog', href: '/blog' },
   { name: 'Projects', href: '/projects' },
   { name: 'Reading List', href: '/readinglist' },
-  { name: 'Ideas', href: '/ideas' }
+  { name: 'Ideas', href: '/ideas' },
 ]
 </script>
 
