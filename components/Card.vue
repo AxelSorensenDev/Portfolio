@@ -1,6 +1,6 @@
 <template>
   <div class="rounded-lg overflow-hidden bg-white">
-    <img class="w-full" :src="post.cover">
+    <NuxtImg class="w-full h-[150px] object-cover" :src="post.cover" />
     <div class="px-6 py-4">
       <div class="font-bold text-md mb-2 line-clamp-1">{{ post.title }}</div>
       <p class="text-gray-700 text-sm line-clamp-2">

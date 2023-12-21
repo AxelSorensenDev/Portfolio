@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  components: true,
+  //components: true,
   devtools: { enabled: true },
   css: ["/globals.css"],
   postcss: {
@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    '@nuxt/content','nuxt-icon'
+    '@nuxt/content','nuxt-icon','@nuxt/image'
   ],
   content: {
     // ... options
