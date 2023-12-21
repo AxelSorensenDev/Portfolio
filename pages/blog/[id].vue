@@ -1,10 +1,10 @@
 <template>
   <main class="prose">
-    <LazyContentDoc class="p-8">
+    <ContentDoc class="p-8">
       <template #not-found>
         <Error />
       </template>
-    </LazyContentDoc>
+    </ContentDoc>
   </main>
 </template>
 
