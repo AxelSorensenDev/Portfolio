@@ -2,6 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-.router-link-exact-active.router-link-exact-active {
-  @apply bg-gray-900 text-white hover:bg-gray-900 hover:text-white pointer-events-none
+nav .router-link-exact-active.router-link-exact-active {
+  @apply underline underline-offset-[10px] decoration-1 text-gray-900
+}
+
+nav .router-link-exact-active.router-link-exact-active {
+  text-shadow: .1px .1px 0px #000000, -.1px -.1px 0px #000000, .1px -.1px 0px #000000, -.1px .1px 0px #000000
+}
+
+[aria-describedby="footnote-label"] {
+  @apply no-underline !important
+}
+
+.byline {
+  @apply absolute top-[140px] text-sm text-gray-400 
+}
+
+figure {
+  @apply flex flex-col items-center
+}
+
+/* Math stuff */
+
+eq {
+  font-family: "Latin Modern Roman";
+  font-style: italic;
+  font-size: 1em;
+  margin: 5px;
+}
+
+eq > sup {
+  font-size: 20px;
+  top: -5px;
+
+}
+
+
+svg {
+  @apply inline-block
 }

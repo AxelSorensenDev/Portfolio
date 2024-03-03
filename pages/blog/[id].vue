@@ -1,15 +1,18 @@
 <template>
-  <main class="prose">
-    <ContentDoc class="p-8">
-      <template #not-found>
-        <Error />
-      </template>
-    </ContentDoc>
-  </main>
+  <div class="flex justify-center">
+    <div class="prose prose-a:no-underline prose-p:text-justify prose-a:text-purple-500">
+
+      <ContentDoc>
+        <template #not-found>
+          <Error />
+        </template>
+      </ContentDoc>
+    </div>
+  </div>
 </template>
 
-<script setup>
+<!-- <script setup>
 definePageMeta({
   layout: 'blog'
 })
-</script>
+</script> -->

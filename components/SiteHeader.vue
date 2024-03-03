@@ -1,10 +1,11 @@
 <template>
-  <nav class="flex text-gray-800 text-sm justify-between whitespace-nowrap">
+  <nav
+    class="flex text-sm justify-between whitespace-nowrap bg-gradient-to-b from-white from-60% to-100% to-transparent pb-8 z-10">
     <div class="flex">
       <div class="text-slate-500 px-4 p-2 m-4">@Axel Sorensen</div>
 
       <div class="*:p-2 *:px-4 gap-2 *:rounded-md m-4 hidden md:flex">
-        <NuxtLink v-for="page in pages" class="hover:bg-gray-100 hover:text-gray-900" :to="page.href">{{ page.name }}
+        <NuxtLink v-for="page in pages" class=" hover:text-gray-900 text-gray-500" :to="page.href">{{ page.name }}
         </NuxtLink>
       </div>
     </div>
@@ -29,4 +30,3 @@ const pages = [
   { name: 'Ideas', href: '/ideas' },
 ]
 </script>
-

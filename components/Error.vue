@@ -12,4 +12,3 @@
 <script setup>
 defineProps(['error'])
 </script>
-

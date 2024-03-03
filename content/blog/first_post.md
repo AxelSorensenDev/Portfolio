@@ -1,6 +1,6 @@
 ---
 id: first_post
-title: Hello, World my name is Axel And imready to dance!
+title: Testing
 description: This is my very first blog post and I'm so excited to share it with you!
 date: 2023-05-23
 cover: https://images.pexels.com/photos/629159/pexels-photo-629159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
@@ -32,7 +32,6 @@ console.log(hello);
 You can use blockquotes
 
 > This is a blockquote
-
 
 [This is a link](https://www.google.com)
 

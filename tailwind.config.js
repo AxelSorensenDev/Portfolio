@@ -7,9 +7,11 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
+    "./content/**/*.vue",
   ],
   theme: {
     extend: {
+      
       dropShadow: {
         'md': '0 0px 10px rgba(0, 0, 0, 0.1)',
       }
