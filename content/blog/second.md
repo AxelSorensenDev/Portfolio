@@ -14,8 +14,7 @@ tags:
 [^1]: What are these SR?
 
 # Machine Theory of Mind
-<cite class="byline">- Axel Sorensen</cite>
-<br>
+<!-- <cite class="byline">- Axel Sorensen</cite> -->
 Hey there! And perhaps welcome back?
 This time we are talking about **Machine Theory of Mind**. Before we get ahead of ourselves let's first try to understand what theory of mind (TOM) actually is. TOM refers to the knowledge that others beliefs, desires, intentions and thoughts may differ from our own. This ability is inherent to humans but doesn't begin to form before the age of 4-5. Many tests have been devised in order to measure this ability in children, for one the classical <a href="https://en.wikipedia.org/wiki/Sally%E2%80%93Anne_test" target="_blank">Sally-Anne test</a>. As with any other concept lent from psychology and applied to the field of AI, I recommend getting a good grip of the actual definition from a human perspective, before trying to argue whether these properties are present in artificial agents (but let's save that discussion for another time😉).
 
