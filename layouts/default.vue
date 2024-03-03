@@ -1,5 +1,5 @@
 <template>
-  <SiteHeader />
+  <SiteHeader class="sticky top-0 w-screen" />
   <div class="px-8">
     <slot />
   </div>
@@ -8,5 +8,3 @@
 <script setup>
 
 </script>
-
-

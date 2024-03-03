@@ -11,7 +11,7 @@
       </svg>
     </div>
     <div :class="isOpen ? 'block' : 'hidden'"
-      class="flex flex-col md:gap-8 gap-4 md:flex-row flex-grow-[1] md:items-center px-8 bg-gradient-to-b from-white from-60% to-100% to-transparent md:flex">
+      class="flex flex-col md:gap-8 gap-4 md:flex-row flex-grow-[1] md:items-center px-8 bg-gradient-to-b from-white from-90% to-100% to-transparent md:flex md:pb-0 pb-8">
 
 
       <NuxtLink @click="isOpen = false" v-for="page in pages" class=" hover:text-gray-900 text-gray-500"
