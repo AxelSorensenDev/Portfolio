@@ -4,7 +4,7 @@
       <div class=" drop-shadow-md" v-if="pending" v-for="_ in 10">
         <SkeletonCard />
       </div>
-      <div v-if="loaded" class=" drop-shadow-md" v-for="post in posts">
+      <div v-else class=" drop-shadow-md" v-for="post in posts">
         <NuxtLink :to="`blog/${post.id}`">
           <Card :post="post" />
         </NuxtLink>
