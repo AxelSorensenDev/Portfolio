@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   //components: true,
   // Set ssr true when deploying, only set it false because it was messing with my dev preview
-  ssr: false,
+  // ssr: false,
   devtools: { enabled: true },
   css: ["/globals.css"],
   postcss: {
