@@ -1,9 +1,9 @@
 ---
 id: second
 title: Machine Theory of Mind
-description: This is my very first blog post and I'm so excited to share it with you!
+description: This is my very first blog post and I'm so excited to share it with you! Also I want to write a bit more because then i can see how the lines will
 date: 2023-05-23
-cover: https://images.pexels.com/photos/629159/pexels-photo-629159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+cover: https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg
 tags:
   - blog
   - testing
@@ -14,7 +14,6 @@ tags:
 [^1]: What are these SR?
 
 # Machine Theory of Mind
-<!-- <cite class="byline">- Axel Sorensen</cite> -->
 Hey there! And perhaps welcome back?
 This time we are talking about **Machine Theory of Mind**. Before we get ahead of ourselves let's first try to understand what theory of mind (TOM) actually is. TOM refers to the knowledge that others beliefs, desires, intentions and thoughts may differ from our own. This ability is inherent to humans but doesn't begin to form before the age of 4-5. Many tests have been devised in order to measure this ability in children, for one the classical <a href="https://en.wikipedia.org/wiki/Sally%E2%80%93Anne_test" target="_blank">Sally-Anne test</a>. As with any other concept lent from psychology and applied to the field of AI, I recommend getting a good grip of the actual definition from a human perspective, before trying to argue whether these properties are present in artificial agents (but let's save that discussion for another time😉).
 

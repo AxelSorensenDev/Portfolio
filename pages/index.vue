@@ -1,6 +1,6 @@
 <template>
   <div class="prose">
-    <h2 class="">👋 Hey there! I'm Axel Sorensen</h2>
+    <h1 class="">👋 Hey there! I'm Axel Sorensen</h1>
     <h3>This is my stuff</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ab

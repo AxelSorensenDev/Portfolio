@@ -14,8 +14,13 @@ nav .router-link-exact-active.router-link-exact-active {
   @apply no-underline !important
 }
 
+.no_dec_link {
+  text-shadow: none !important;
+  @apply no-underline !important
+}
+
 .byline {
-  @apply absolute top-[140px] text-sm text-gray-400 
+  @apply absolute top-[145px] text-xs text-gray-400 
 }
 
 figure {

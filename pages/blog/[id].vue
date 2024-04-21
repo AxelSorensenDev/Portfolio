@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center">
+  <div class="flex justify-center mt-8">
     <div class="prose prose-a:no-underline prose-p:text-justify prose-a:text-purple-500">
 
       <ContentDoc>
